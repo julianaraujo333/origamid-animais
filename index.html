@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&family=Playfair+Display+SC&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
 
   <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script>document.documentElement.className += ' js';</script>
   <title>Animais Fantásticos</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
 
   <section class="grid-section animais" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista">
+    <ul class="animais-lista js-tabmenu">
       <li>
         <img src="img/imagem1.jpg" alt="">
       </li>
@@ -54,8 +55,8 @@
       </li>
     </ul>
 
-    <div class="animais-descricao">
-      <section>
+    <div class="animais-descricao js-tabcontent">
+      <section class="ativo">
         <h2>Raposa</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, consectetur magni. Quas asperiores dolorum autem aperiam voluptatem sapiente tempore impedit ut, nobis, adipisci iure dicta.</p>
       </section>
@@ -115,5 +116,7 @@
   <footer class="copy">
     <p>Todos os direitos reservados</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

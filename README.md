@@ -32,6 +32,3 @@ index.html
 ## 🖼 Layout
 ![Layout Animais Fantasticos](/img/layout.png)
 
-## 📝 Licença
-
----

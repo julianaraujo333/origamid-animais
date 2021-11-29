@@ -2,7 +2,7 @@
 <h1 align="center">Animais Fantásticos<br></h1>
 
 ## 🔖 Descrição
-🐺 Criação do site Animais Fantásticos para colocar em prática os conhecimentos aprendidos no curso de JavaScript ES6 ministrado pela Origamid.
+🐺  Site desenvolvido durante o curso JavaScript ES6 ministrado pela Origamid.
 
 
 ---
